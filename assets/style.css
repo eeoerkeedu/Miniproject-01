@@ -1,0 +1,18 @@
+* { }
+header {
+    /* display: inline; */
+    position: fixed;
+    top: 0;
+    text-align: center;
+    display: none;
+}
+
+#mainheader {
+    /* display: inline; */
+}
+#headerpic {
+    
+}
+h2 {display: block;
+    position: relative;
+}
