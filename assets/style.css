@@ -1,18 +1,43 @@
-* { }
 header {
-    /* display: inline; */
+    display: inline;
     position: fixed;
     top: 0;
+    max-width: 1000px;
     text-align: center;
-    display: none;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    /* display: none; */
 }
 
 #mainheader {
-    /* display: inline; */
+    display: inline;   
 }
+
 #headerpic {
-    
+    max-width: 5%;
+    height: auto;
 }
-h2 {display: block;
+section {
+    max-width: 1000px;
+    background-color: lightpink;
+}
+
+h2{
     position: relative;
+    left: 100px;
+}
+
+form{
+    position: relative;
+    left: 300px;
+    padding: 10px;
+}
+
+#contactpic {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin-top: 20px;
 }
